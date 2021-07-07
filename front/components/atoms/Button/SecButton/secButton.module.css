@@ -1,0 +1,13 @@
+.secondaryButton {
+  border: 2px solid #6ef735;
+  color: #6ef735;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+.secondaryButton:hover {
+  background-color: #6ef735;
+  color: #9103cd;
+}

@@ -1,0 +1,21 @@
+.postList {
+  padding: 0 40px;
+}
+
+.postListItem {
+  margin-top: 24px;
+  list-style: none;
+}
+
+.postListItem__title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.postListItem__body {
+  color: #888;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
