@@ -1,7 +1,6 @@
 import { ApolloServer, gql, IResolvers } from 'apollo-server';
-import { Prisma, PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 import { PrismaSelect } from '@paljs/plugins';
-import { title } from 'process';
 
 const typeDefs = gql`
   type Post {
