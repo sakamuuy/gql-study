@@ -3,4 +3,10 @@
   padding: 16px 24px;
   border: 1px solid #eee;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background-color: #6ef735;
+  color: #fff;
 }
