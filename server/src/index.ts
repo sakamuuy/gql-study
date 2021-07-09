@@ -57,11 +57,12 @@ const typeDefs = gql`
 const resolvers: IResolvers<any, { readonly prismaClient: PrismaClient }> = {
   Query: {
     post(_root, { id }: { readonly id: string }, ctx, info) {
+      const idn = Number(id);
       const select = new PrismaSelect(info);
       return ctx.prismaClient.post.findUnique({
         ...select.value,
         where: {
-          id
+          id: idn
         }
       })
     },
