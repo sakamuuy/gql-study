@@ -5,6 +5,7 @@ export type PostQuery = {
         id: string;
         title: string;
         content: string | null;
+        authorId: number;
     }) | null;
 };
 export type PostQueryVariables = {
