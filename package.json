@@ -22,28 +22,29 @@
   },
   "homepage": "https://github.com/sakamuuy/gql-study#readme",
   "dependencies": {
+    "@apollo/client": "^3.3.21",
     "@paljs/plugins": "^3.6.0",
     "@prisma/client": "^2.26.0",
     "apollo-server": "^2.25.2",
     "graphql": "^15.5.1",
-    "@apollo/client": "^3.3.21",
     "graphql-request": "^3.4.0",
     "next": "11.0.1",
+    "nexus": "^1.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sanitize.css": "^12.0.1"
   },
   "devDependencies": {
     "@types/node": "^16.0.0",
-    "prisma": "^2.26.0",
-    "ts-node": "^10.0.0",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.3.5",
     "@types/react": "17.0.13",
     "@types/styled-components": "^5.1.11",
     "@types/styled-jsx": "^2.2.9",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
-    "ts-graphql-plugin": "^2.1.3"
+    "prisma": "^2.26.0",
+    "ts-graphql-plugin": "^2.1.3",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   }
 }
